@@ -89,8 +89,8 @@ function Resume() {
                   </a>
                 </p>
                 <p className="pl-4">
-                  IoT Raspberry Pi electrical controller, DSLR controller, and
-                  web app to film the growth of plants.{" "}
+                  Raspbery Pi IoT web app controlled studio to film the growth
+                  of plants.{" "}
                 </p>
                 <ReactPlayer
                   muted
