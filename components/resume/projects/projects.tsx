@@ -1,5 +1,5 @@
 import React from "react";
-import { Flex, Text, Center } from "@chakra-ui/react";
+import { Wrap, WrapItem, Flex, Text, Center } from "@chakra-ui/react";
 import Project from "./projecttemplate";
 import { projectData } from "./projectdata";
 export default function Projects() {
@@ -15,12 +15,17 @@ export default function Projects() {
           Projects
         </Text>
       </Center>
-
-      <Flex templateColumns="repeat(2, 1fr)" p={4} gap={6} color="white">
+      <Wrap>
         {projectData.map((data) => {
-          return <Project {...data} />;
+          return (
+            <>
+              <WrapItem>
+                <Project {...data} />
+              </WrapItem>
+            </>
+          );
         })}
-      </Flex>
+      </Wrap>
     </>
   );
 }

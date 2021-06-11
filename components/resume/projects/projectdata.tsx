@@ -11,7 +11,7 @@ export const projectData = [
   {
     project: "Thinksats.com",
     info: "React website to display the price of common expenses in satoshis.",
-    content: <iframe src="https://thinksaats.com" />,
+    content: <iframe width="100%" height="500px" src="https://thinksats.com" />,
   },
   {
     project: "SNX Stats Twiter Bot",
