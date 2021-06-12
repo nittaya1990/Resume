@@ -20,7 +20,7 @@ export default function Projects() {
           return (
             <>
               <WrapItem>
-                <Project {...data} />
+                <Project key={data.project} {...data} />
               </WrapItem>
             </>
           );
