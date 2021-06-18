@@ -1,5 +1,5 @@
 import ReactPlayer from "react-player";
-import { Image, Box } from "@chakra-ui/image";
+import { Image } from "@chakra-ui/image";
 import { Timeline, Tweet } from "react-twitter-widgets";
 
 interface projectData {
