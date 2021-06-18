@@ -1,9 +1,19 @@
-
-import {Box,Center} from "@chakra-ui/react"
+import { Box, Center } from "@chakra-ui/react";
+import Resume from "./Resume";
+import Header from "../components/header/header";
+import Navbar from "../components/header/navbar";
 export default function Home() {
-  return (<>
-  <Center  bg="blue.500" color="white"  borderRadius="lg" p={5} m={2} > This is a box </Center> </>
-    
-  )
-
+  return (
+    <>
+      <Box
+        w="100%"
+        minH="100vh"
+        height="100%"
+        bgGradient="linear(to-r, orange.100, purple.300)"
+      >
+        <Header />
+        <Resume />
+      </Box>
+    </>
+  );
 }

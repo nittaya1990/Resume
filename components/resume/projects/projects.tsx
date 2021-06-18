@@ -1,5 +1,5 @@
 import React from "react";
-import { Wrap, WrapItem, Flex, Text, Center } from "@chakra-ui/react";
+import { Grid, Wrap, WrapItem, Flex, Text, Center } from "@chakra-ui/react";
 import Project from "./projecttemplate";
 import { projectData } from "./projectdata";
 export default function Projects() {
@@ -7,25 +7,38 @@ export default function Projects() {
     <>
       <Center textTransform="uppercase" fontWeight="bold" fontsize="64">
         <Text
+          p="4"
           bgGradient="linear(to-l, #7928CA,#FF0080)"
           bgClip="text"
-          fontSize="2xl"
-          fontWeight="extrabold"
+          fontSize={["2xl", "3xl"]}
+          fontWeight=""
         >
           Projects
         </Text>
       </Center>
-      <Wrap>
-        {projectData.map((data) => {
-          return (
-            <>
-              <WrapItem>
-                <Project key={data.project} {...data} />
-              </WrapItem>
-            </>
-          );
-        })}
-      </Wrap>
+      <Center>
+        <Wrap spacing="30px" align="center">
+          <Center>
+            <Grid
+              templateColumns={[
+                "repeat(1, 1fr)",
+                "repeat(1, 1fr)",
+                "repeat(2, 1fr)",
+              ]}
+            >
+              {projectData.map((data) => {
+                return (
+                  <>
+                    <WrapItem p="4">
+                      <Project key={data.project} {...data} />
+                    </WrapItem>
+                  </>
+                );
+              })}
+            </Grid>
+          </Center>
+        </Wrap>
+      </Center>
     </>
   );
 }

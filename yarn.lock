@@ -246,6 +246,14 @@
   dependencies:
     "@chakra-ui/utils" "1.8.0"
 
+"@chakra-ui/icons@^1.0.13":
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/@chakra-ui/icons/-/icons-1.0.13.tgz#d8eb04479b048d8023ae90d76205cd4a0bf7dd79"
+  integrity sha512-twDpFz2uPVboMTEI4QA2y3EJND3G4+/9AVs730fgnnfhTw4EOJt0Lhfm4Spq1qi1LgHF16x4/Lao1E2imB5lWw==
+  dependencies:
+    "@chakra-ui/icon" "1.1.9"
+    "@types/react" "^17.0.0"
+
 "@chakra-ui/image@1.0.15":
   version "1.0.15"
   resolved "https://registry.yarnpkg.com/@chakra-ui/image/-/image-1.0.15.tgz#57aaf7e22d2793b9278481aab56b27063a922e5b"
@@ -885,6 +893,15 @@
     "@types/scheduler" "*"
     csstype "^3.0.2"
 
+"@types/react@^17.0.0":
+  version "17.0.11"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.11.tgz#67fcd0ddbf5a0b083a0f94e926c7d63f3b836451"
+  integrity sha512-yFRQbD+whVonItSk7ZzP/L+gPTJVBkL/7shLEF+i9GC/1cV3JmUxEQz6+9ylhUpWSDuqo1N9qEvqS6vTj4USUA==
+  dependencies:
+    "@types/prop-types" "*"
+    "@types/scheduler" "*"
+    csstype "^3.0.2"
+
 "@types/scheduler@*":
   version "0.16.1"
   resolved "https://registry.yarnpkg.com/@types/scheduler/-/scheduler-0.16.1.tgz#18845205e86ff0038517aab7a18a62a6b9f71275"
@@ -1015,11 +1032,6 @@ bn.js@^5.0.0, bn.js@^5.1.1:
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-5.2.0.tgz#358860674396c6997771a9d051fcc1b57d4ae002"
   integrity sha512-D7iWRBvnZE8ecXiLj/9wbxH7Tk79fAh8IHaTNq1RWRixsS02W+5qS+iE9yq6RYl0asXx5tw0bLhmT5pIfbSquw==
-
-bootstrap@^4.3.1:
-  version "4.6.0"
-  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.6.0.tgz#97b9f29ac98f98dfa43bf7468262d84392552fd7"
-  integrity sha512-Io55IuQY3kydzHtbGvQya3H+KorS/M9rSNyfCGCg9WZ4pyT/lCxIlpJgG1GXW/PswzC84Tr2fBYi+7+jFVQQBw==
 
 braces@~3.0.2:
   version "3.0.2"
@@ -1943,6 +1955,11 @@ loader-utils@1.2.3:
     emojis-list "^2.0.0"
     json5 "^1.0.1"
 
+loadjs@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/loadjs/-/loadjs-4.2.0.tgz#2a0336376397a6a43edf98c9ec3229ddd5abb6f6"
+  integrity sha512-AgQGZisAlTPbTEzrHPb6q+NYBMD+DP9uvGSIjSUM5uG+0jG15cb8axWpxuOIqrmQjn6scaaH8JwloiP27b2KXA==
+
 locate-path@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/locate-path/-/locate-path-5.0.0.tgz#1afba396afd676a6d42504d0a67a3a7eb9f62aa0"
@@ -2440,6 +2457,11 @@ react-focus-lock@2.5.0:
     use-callback-ref "^1.2.1"
     use-sidecar "^1.0.1"
 
+react-icons@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-4.2.0.tgz#6dda80c8a8f338ff96a1851424d63083282630d0"
+  integrity sha512-rmzEDFt+AVXRzD7zDE21gcxyBizD/3NqjbX6cmViAgdqfJ2UiLer8927/QhhrXQV7dEj/1EGuOTPp7JnLYVJKQ==
+
 react-is@16.13.1, react-is@^16.7.0, react-is@^16.8.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
@@ -2488,6 +2510,13 @@ react-style-singleton@^2.1.0:
     get-nonce "^1.0.0"
     invariant "^2.2.4"
     tslib "^1.0.0"
+
+react-twitter-widgets@^1.10.0:
+  version "1.10.0"
+  resolved "https://registry.yarnpkg.com/react-twitter-widgets/-/react-twitter-widgets-1.10.0.tgz#f5395c25b954631b5a2532cdb48005f7db61d370"
+  integrity sha512-K7MAREhkKJxrhoiNWricKs1O++NyElnVpcplLzZ67gDrmeIsD3E4TUzlt0/nTZAHPOPPc86V4kEd4KIg4de7cQ==
+  dependencies:
+    loadjs "^4.2.0"
 
 react@^17.0.2:
   version "17.0.2"
