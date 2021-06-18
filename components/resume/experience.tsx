@@ -16,7 +16,14 @@ export default function Experience() {
         </Text>
       </Center>
       <Center p="4">
-        <Box rounded="lg" bg="#7979793b" p={4}>
+        <Box
+          width="100%"
+          color="white"
+          rounded="lg"
+          bg="#1b1b1b36"
+          boxShadow="xl"
+          p={4}
+        >
           <Text fontWeight="bold">Kineto Films, Co-owner CEO:</Text>
           <Text>Jan 2017 – March 2020</Text>
           <Container color="white">
@@ -27,7 +34,14 @@ export default function Experience() {
         </Box>
       </Center>
       <Center p="4">
-        <Box rounded="lg" bg="#a3a3a33a" p={4}>
+        <Box
+          width="100%"
+          color="white"
+          rounded="lg"
+          bg="#1b1b1b36"
+          boxShadow="xl"
+          p={4}
+        >
           <Text fontWeight="bold"> Polyform US, Manufacturing </Text>
           <Text>Engineer: March 2015 – Dec 2017</Text>
           <Container>

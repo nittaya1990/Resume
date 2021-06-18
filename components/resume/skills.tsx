@@ -17,7 +17,14 @@ export default function Skills() {
           </Text>
         </Center>
         <Center p="4">
-          <Container rounded="lg" bg="#7979793b" p="4">
+          <Container
+            width="100%"
+            color="white"
+            rounded="lg"
+            bg="#1b1b1b36"
+            boxShadow="xl"
+            p="4"
+          >
             JavaScript, ES6, React, Next.JS, Python, Ethers.js, Web3.js,
             Solidity, ERC-20/721/1155, Hardhat, Truffle, Scafold ETH, ChakraUI,
             Bootstrap, jQuery, PHP, CSS, HTML, Linux, Bash, Raspberry Pi,

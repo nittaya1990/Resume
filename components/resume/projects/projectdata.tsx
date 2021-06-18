@@ -1,6 +1,7 @@
 import ReactPlayer from "react-player";
 import { Image } from "@chakra-ui/image";
 import { Timeline, Tweet } from "react-twitter-widgets";
+import { Grid } from "@chakra-ui/react";
 
 interface projectData {
   project: string;
@@ -14,8 +15,17 @@ export const projectData = [
     info: "Winner of the Open Defi Hackathon synthetix network SNX tweet bot.",
     content: (
       <>
-        <Tweet tweetId="1405586162731732994" />{" "}
-        <Tweet tweetId="1398347410980618245" />
+        <Grid
+          gap={5}
+          templateColumns={[
+            "repeat(1, 1fr)",
+            "repeat(1, 1fr)",
+            "repeat(2, 1fr)",
+          ]}
+        >
+          <Tweet tweetId="1405586162731732994" />
+          <Tweet tweetId="1398347410980618245" />
+        </Grid>
       </>
     ),
   },
@@ -24,8 +34,17 @@ export const projectData = [
     info: "Finalist in Web3 Weekend hackathon. Top place in sponsor prize",
     content: (
       <>
-        <Tweet tweetId="1399107405665951747" />
-        <Tweet tweetId="1399364639012659201" />
+        <Grid
+          gap={5}
+          templateColumns={[
+            "repeat(1, 1fr)",
+            "repeat(1, 1fr)",
+            "repeat(2, 1fr)",
+          ]}
+        >
+          <Tweet tweetId="1399107405665951747" />
+          <Tweet tweetId="1399364639012659201" />{" "}
+        </Grid>
       </>
     ),
   },

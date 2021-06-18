@@ -17,7 +17,15 @@ export default function Education() {
           </Text>
         </Center>
         <Center>
-          <Container rounded="lg" bg="#7979793b" m="2" p={2}>
+          <Container
+            width="100%"
+            color="white"
+            rounded="lg"
+            bg="#1b1b1b36"
+            boxShadow="xl"
+            m="2"
+            p={2}
+          >
             <Text pl={4}>
               Manufacturing Engineering Technology CAD/CAM (ABET)
             </Text>
