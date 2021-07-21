@@ -88,7 +88,7 @@ export const projectData = [
   },
   {
     project: "Plant Timelapse",
-    info: "Raspbery Pi IoT web app controlled studio to film the growth of plants.",
+    info: "Raspberry Pi IoT web app controlled studio to film the growth of plants.",
     content: (
       <ReactPlayer
         muted
