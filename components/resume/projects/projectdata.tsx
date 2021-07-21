@@ -11,7 +11,7 @@ interface projectData {
 
 export const projectData = [
   {
-    project: "SNX Stats Twiter Bot",
+    project: "SNX Stats Twitter Bot",
     info: "Winner of the Open Defi Hackathon synthetix network SNX tweet bot.",
     content: (
       <>
